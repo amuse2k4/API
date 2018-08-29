@@ -40,7 +40,7 @@ namespace ModeTransAPI.Controllers
                     {
                         while (dr.Read())
                         {
-                            string companyName = dr["CompanyNames"].ToString();
+                            string companyName = dr["CompanyNamesjjj"].ToString();
                         }
                     }
                 
