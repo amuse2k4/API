@@ -14,7 +14,7 @@ ls -l $D7INVP1_ARCHIVE | grep IES | grep Jul |
 awk ' { print $9 }' |
 while read line
 do	
-      mv $D7INVP1_ARCHIVE/$line $D7INVP1_ARCHIVE_HOLD
+      mv $D7INVP1_ARCHIVE/$line $D7INVP1_ARCHIVE_HOLDdd
 done
 
 echo "-----Ended.  `date`"
